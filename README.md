@@ -7,3 +7,4 @@ Once the waste is detected, a verification algorithm runs to ensure the correctn
 The results are stored on the cloud platform and displayed on a dashboard.
 
 app.py contains the code to read recorded videos on that current day stored on GCP bucket, perform all the detections, tracking and algorithm on the videos and then upload the result to GCP bucket.
+The weights of the model can be downloaded from https://drive.google.com/file/d/10B0kXzCTyuHNaOQ4jzTkOkG4T59hWw4L/view?usp=sharing
